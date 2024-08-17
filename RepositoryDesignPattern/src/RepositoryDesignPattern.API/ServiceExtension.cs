@@ -7,7 +7,7 @@ namespace RepositoryDesignPattern.API;
 
 public static class ServiceExtension
 {
-    private static readonly string _connectionStr = @"Server=localhost;Database=RepositoryDesignPatternDB;Trusted_Connection=True;";
+    private static readonly string _connectionStr = @"Server=WINDOWS-BL2EM9B\SQLEXPRESS;Database=RepositoryDesignPatternDB;Trusted_Connection=True;TrustServerCertificate=True;";
     public static void RegisterServices(this IServiceCollection services)
     {
         services.AddDbContext<RepositoryDesignPatternDbContext>(opt =>
