@@ -1,6 +1,6 @@
 ## Generic Repository Pattern
 
-Günümüzdə bir çox dataya əsaslanan tətbiqlər, verilənlər bazasında yerləşən məlumatlara əlçatan olmalıdır. 
+Günümüzdə bir çox dataya əsaslanan application-lar, verilənlər bazasında yerləşən məlumatlara əlçatan olmalıdır. 
 
 Ən asan və sadə üsul, verilənlər bazasında yerləşən məlumatlarla həyata keçirilən əməliyyatların hamısını əsas kodlarla birlikdə yazmaqdır.
 ```csharp
@@ -15,16 +15,57 @@ public class MyEntitiesController : ControllerBase
         _context = context;
     }
 
+    
+    [HttpPost]
+    public async Task<IActionResult> CreateMyEntity(MyEntity myEntity)
+    {
+        await _context.MyEntities.AddAsync(myEntity);
+        await _context.SaveChangesAsync();
+        return Ok();
+    }
+
     [HttpGet]
     public async Task<List<MyEntity>> GetAllMyEntities()
     {
         List<MyEntity> myEntities = await _context.MyEntities.ToListAsync();
         return myEntities;
     }
+
+
+    [HttpPut]
+    public async Task<IActionResult> UpdateMyEntity(string id, MyEntity myEntity)
+    {
+        Guid guid = new(id);
+        MyEntity? baseEntity = _context.MyEntities.AsNoTracking().SingleOrDefault(e=>e.Id == guid);
+        if (baseEntity == null) throw new Exception("Entity not found in Database");
+
+        baseEntity.Name = myEntity.Name;
+        baseEntity.Description = myEntity.Description;
+        baseEntity.Status = myEntity.Status;
+        baseEntity.CreatedDate = myEntity.CreatedDate;
+        baseEntity.LastModifiedDate = myEntity.LastModifiedDate;
+        baseEntity.DeletedDate = myEntity.DeletedDate;
+
+        _context.MyEntities.Update(baseEntity);
+        await _context.SaveChangesAsync();
+        return Ok();
+    }
+
+    [HttpDelete]
+    public async Task<IActionResult> DeleteMyEntity(string id)
+    {
+        Guid guid = new(id);
+        MyEntity? baseEntity = _context.MyEntities.Find(guid);
+        if (baseEntity == null) throw new Exception("Entity not found in Database"); 
+
+        _context.MyEntities.Remove(baseEntity);
+        await _context.SaveChangesAsync();
+        return Ok();
+    }  
 }
 ```
 
-Məsələn, hər hansısa `ASP.NET API` layihəsində controller varsa (MyEntities controller deyək), burada tipik CRUD (Create, Read, Update, Delete) əməliyyatlarını həyata keçirən action-ların mövcud olduğunu fərz edək. 
+Məsələn, hər hansısa `ASP.NET API` layihəsində MyEntities controller daxilində tipik CRUD (Create, Read, Update, Delete) əməliyyatlarını həyata keçirən action-ların mövcud olduğunu fərz edək. 
 Həmçinin, verilənlər bazası ilə əlaqəli bütün bu proseslər üçün Entity Framework Core istifadə etdiyimizi fərz edək. Bu zaman Entity Framework Core birbaşa olaraq DbContext class-ı ilə əlaqəyə girir, məlumat almaq və ya ötürmək üçün sorğular həyata keçirir. Entity Framework Core təməldə SQL Server verilənlər bazası ilə “danışır”.
 
 ```Repository Design Pattern```, interface istifadə edərək `Abstraction` tətbiq edib, Data Access Layer ilə Business Logic Layer-i bir-birindən ayırmaq və onların arasında vasitəçi və ya orta təbəqə (layer) rolunu təmin etmək üçün istifadə edilən memari design pattern’dir. Bu o deməkdir ki, Repository Pattern verilənlər bazası ilə bağlı olan kodları proyektin qalan hissəsindən təcrid edir. Bu Design Pattern-in bizə qazandırdığı ən böyük üstünlük verilənlər bazası ilə bağlı olan əməliyyatların hamısını bir yerdən idarə edə bilməkdir. 
@@ -46,10 +87,11 @@ IReadRepository interfeysində oxuma (read) ilə bağlı get method-lar yerləş
 ```csharp
 public interface IReadRepository<T>:IRepository<T> where T:BaseEntity,new()
 {
-    IQueryable<T> GetAll();    
+    IQueryable<T> GetAll();
+    Task<T?> GetByIdAsync(Guid id, bool isTracking = false);
+}   
 }
 ```
-
 
 IWriteRepository interfeysində isə Create, Update və Delete üçün lazım olan method’lar və SaveChanges method’u yer alır.
 ```csharp
@@ -81,6 +123,17 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
     {
         var query = Table.AsQueryable();
         return query;
+    }
+
+    public async Task<T?> GetByIdAsync(Guid id, bool isTracking = false)
+    {
+        var query = Table.AsQueryable();
+        if (!isTracking)
+        {
+            query.AsNoTracking();
+        }
+        T? entity = await query.SingleOrDefaultAsync(e=>e.Id == id);
+        return entity;
     }
 }
 ```
@@ -131,8 +184,55 @@ Folder Structure aşağıdaki şəkildə olur.
 ![image](https://github.com/user-attachments/assets/dc2d7fde-e2cb-4620-b877-bef0f19788e7)
 
 
+Generic Repository Pattern tətbiq edilmiş Controller-in daxili aşağıdaki şəkildə olacaq.
 
+```csharp
+[HttpPost]
+public async Task<IActionResult> CreateMyEntity(MyEntity myEntity)
+{
+    await _myEntityWriteRepository.CreateAsync(myEntity);
+    await _myEntityWriteRepository.SaveAsync();
+    return Ok();
+}
 
+[HttpGet]
+public async Task<List<MyEntity>> GetAllMyEntities()
+{
+    List<MyEntity> myEntities = await _myEntityReadRepository.GetAll().ToListAsync();
+    return myEntities;
+}
+
+[HttpPut]
+public async Task<IActionResult> UpdateMyEntity(string id, MyEntity myEntity)
+{
+    Guid guid = new(id);
+    MyEntity? baseEntity = await _myEntityReadRepository.GetByIdAsync(guid);
+    if (baseEntity == null) throw new Exception("Entity not found in Database");
+
+    baseEntity.Name = myEntity.Name;
+    baseEntity.Description = myEntity.Description;
+    baseEntity.Status = myEntity.Status;
+    baseEntity.CreatedDate = myEntity.CreatedDate;
+    baseEntity.LastModifiedDate = myEntity.LastModifiedDate;
+    baseEntity.DeletedDate = myEntity.DeletedDate;
+
+    _myEntityWriteRepository.Update(baseEntity);
+    await _context.SaveChangesAsync();
+    return Ok();
+}
+
+[HttpDelete]
+public async Task<IActionResult> DeleteMyEntity(string id)
+{
+    Guid guid = new(id);
+    MyEntity? baseEntity = await _myEntityReadRepository.GetByIdAsync(guid);
+    if (baseEntity == null) throw new Exception("Entity not found in Database");
+
+    _myEntityWriteRepository.Remove(baseEntity);
+    await _context.SaveChangesAsync();
+    return Ok();
+}
+```
 
 
 ## LinkedIn
