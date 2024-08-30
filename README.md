@@ -63,22 +63,75 @@ public interface IWriteRepository<T> : IRepository<T> where T : BaseEntity, new(
 ```
 
 Bu interfeyslərin konkretləri yəni Concrete class-ları isə Persistence layer-də, Concretes folder və onun da daxilində Repositories adlı başqa bir folder-də yer alır. 
-ReadRepository class’ı IReadRepository interfeysini, WriteRepository class’ı isə IWriteRepository interfeysini implement etməlidir. Lakin IRepository interfeysinin konkret bir class’ı olmamalıdır.
+
+`ReadRepository` class’ı IReadRepository interfeysini implement etməlidir.
+```csharp
+public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
+{
+    private RepositoryDesignPatternDbContext _context;
+
+    public ReadRepository(RepositoryDesignPatternDbContext context)
+    {
+        _context = context;
+    }
+
+    public DbSet<T> Table => _context.Set<T>();
+
+    public IQueryable<T> GetAll()
+    {
+        var query = Table.AsQueryable();
+        return query;
+    }
+}
+```
+
+`WriteRepository` class’ı isə IWriteRepository interfeysini implement etməlidir.
+```csharp
+
+public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity, new()
+{
+
+    private RepositoryDesignPatternDbContext _context;
+
+    public WriteRepository(RepositoryDesignPatternDbContext context)
+    {
+        _context = context;
+    }
+
+    public DbSet<T> Table => _context.Set<T>();
+
+    public async Task CreateAsync(T entity)
+    {
+        await Table.AddAsync(entity);
+    }
+    public void Update(T entity)
+    {
+        Table.Update(entity);
+    }
+
+    public void Remove(T entity)
+    {
+        Table.Remove(entity);
+    }
+
+    public async Task SaveAsync(T entity)
+    {
+        await _context.SaveChangesAsync();
+    }
+
+}
+```
+
+Lakin IRepository interfeysinin konkret bir class’ı olmamalıdır.
+
+Folder Structure aşağıdaki şəkildə olur.
+
+![image](https://github.com/user-attachments/assets/b394e572-e0c8-41b4-bb90-03f861d83647)
+
+![image](https://github.com/user-attachments/assets/dc2d7fde-e2cb-4620-b877-bef0f19788e7)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/cad9faa1-2801-4bf1-9e53-c42dcb32816f)
 
 
 
