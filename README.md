@@ -1,4 +1,4 @@
-# Generic Repository Pattern
+## Generic Repository Pattern
 
 Günümüzdə bir çox dataya əsaslanan tətbiqlər, verilənlər bazasında yerləşən məlumatlara əlçatan olmalıdır. 
 
@@ -30,6 +30,9 @@ Həmçinin, verilənlər bazası ilə əlaqəli bütün bu proseslər üçün En
 ```Repository Design Pattern```, interface istifadə edərək `Abstraction` tətbiq edib, Data Access Layer ilə Business Logic Layer-i bir-birindən ayırmaq və onların arasında vasitəçi və ya orta təbəqə (layer) rolunu təmin etmək üçün istifadə edilən memari design pattern’dir. Bu o deməkdir ki, Repository Pattern verilənlər bazası ilə bağlı olan kodları proyektin qalan hissəsindən təcrid edir. Bu Design Pattern-in bizə qazandırdığı ən böyük üstünlük verilənlər bazası ilə bağlı olan əməliyyatların hamısını bir yerdən idarə edə bilməkdir. 
 
 Başqa bir faydası isə controller’ləri daha rahat test edə bilməkdir. Lakin Repository pattern `SOLID` prinsiplərindən S, yəni `Single Responsibility` prinsipini pozur. Çünki həm data çəkmək, həm də data göndərib onun üzərində hər hansısa bir iş görmək üçün olan method-lar eyni class daxilində yerləşir. SOLID prinsipini pozmaq istəmiriksə, `Read` və `Write` olaraq Repository-ni iki yerə bölmək lazımdır.
+
+![image](https://github.com/user-attachments/assets/cad9faa1-2801-4bf1-9e53-c42dcb32816f)
+
 
 
 ## LinkedIn
