@@ -8,14 +8,13 @@ Günümüzdə bir çox dataya əsaslanan application-lar, verilənlər bazasınd
 [ApiController]
 public class MyEntitiesController : ControllerBase
 {
-    private readonly RepositoryDesignPatternDbContext _context;
+    private readonly AppDbContext _context;
 
-    public MyEntityController(RepositoryDesignPatternDbContext context)
+    public MyEntityController(AppDbContext context)
     {
         _context = context;
     }
-
-    
+  
     [HttpPost]
     public async Task<IActionResult> CreateMyEntity(MyEntity myEntity)
     {
@@ -30,7 +29,6 @@ public class MyEntitiesController : ControllerBase
         List<MyEntity> myEntities = await _context.MyEntities.ToListAsync();
         return myEntities;
     }
-
 
     [HttpPut]
     public async Task<IActionResult> UpdateMyEntity(string id, MyEntity myEntity)
@@ -110,9 +108,9 @@ Bu interfeyslərin konkretləri yəni Concrete class-ları isə Persistence laye
 ```csharp
 public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
 {
-    private RepositoryDesignPatternDbContext _context;
+    private AppDbContext _context;
 
-    public ReadRepository(RepositoryDesignPatternDbContext context)
+    public ReadRepository(AppDbContext context)
     {
         _context = context;
     }
@@ -128,10 +126,7 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
     public async Task<T?> GetByIdAsync(Guid id, bool isTracking = false)
     {
         var query = Table.AsQueryable();
-        if (!isTracking)
-        {
-            query.AsNoTracking();
-        }
+        query = isTracking ? query : query.AsNoTracking();
         T? entity = await query.SingleOrDefaultAsync(e=>e.Id == id);
         return entity;
     }
@@ -143,10 +138,9 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
 
 public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity, new()
 {
+    private AppDbContext _context;
 
-    private RepositoryDesignPatternDbContext _context;
-
-    public WriteRepository(RepositoryDesignPatternDbContext context)
+    public WriteRepository(AppDbContext context)
     {
         _context = context;
     }
@@ -175,64 +169,80 @@ public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity, new(
 }
 ```
 
-Lakin IRepository interfeysinin konkret bir class’ı olmamalıdır.
+`Not: IRepository interfeysinin konkret bir class’ı olmamalıdır.`
+
+
+
+Generic Repository Pattern tətbiq edilmiş Controller-in daxili aşağıdaki şəkildə olacaq.
+
+```csharp
+[Route("api/[controller]")]
+[ApiController]
+public class MyEntityController : ControllerBase
+{
+    private readonly IReadRepository<MyEntity> _readRepository;
+    private readonly IWriteRepository<MyEntity> _writeRepository;
+
+    public MyEntityController(IReadRepository<MyEntity> readRepository, IWriteRepository<MyEntity> writeRepository)
+    {
+        _readRepository = readRepository;
+        _writeRepository = writeRepository;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateMyEntity(MyEntity myEntity)
+    {
+        await _writeRepository.CreateAsync(myEntity);
+        await _writeRepository.SaveAsync();
+        return Ok();
+    }
+
+    [HttpGet]
+    public async Task<List<MyEntity>> GetAllMyEntities()
+    {
+        List<MyEntity> myEntities = await _readRepository.GetAll().ToListAsync();
+        return myEntities;
+    }
+
+    [HttpPut]
+    public async Task<IActionResult> UpdateMyEntity(string id, MyEntity myEntity)
+    {
+        Guid guid = new(id);
+        MyEntity? baseEntity = await _readRepository.GetByIdAsync(guid);
+        if (baseEntity == null) throw new Exception("Entity not found in Database");
+
+        baseEntity.Name = myEntity.Name;
+        baseEntity.Description = myEntity.Description;
+        baseEntity.Status = myEntity.Status;
+        baseEntity.CreatedDate = myEntity.CreatedDate;
+        baseEntity.LastModifiedDate = myEntity.LastModifiedDate;
+        baseEntity.DeletedDate = myEntity.DeletedDate;
+
+        _writeRepository.Update(baseEntity);
+        await _writeRepository.SaveAsync();
+        return Ok();
+    }
+
+    [HttpDelete]
+    public async Task<IActionResult> DeleteMyEntity(string id)
+    {
+        Guid guid = new(id);
+        MyEntity? baseEntity = await _readRepository.GetByIdAsync(guid);
+        if (baseEntity == null) throw new Exception("Entity not found in Database");
+
+        _writeRepository.Remove(baseEntity);
+        await _writeRepository.SaveAsync();
+        return Ok();
+    }
+}
+```
+
 
 Folder Structure aşağıdaki şəkildə olur.
 
 ![image](https://github.com/user-attachments/assets/b394e572-e0c8-41b4-bb90-03f861d83647)
 
 ![image](https://github.com/user-attachments/assets/dc2d7fde-e2cb-4620-b877-bef0f19788e7)
-
-
-Generic Repository Pattern tətbiq edilmiş Controller-in daxili aşağıdaki şəkildə olacaq.
-
-```csharp
-[HttpPost]
-public async Task<IActionResult> CreateMyEntity(MyEntity myEntity)
-{
-    await _myEntityWriteRepository.CreateAsync(myEntity);
-    await _myEntityWriteRepository.SaveAsync();
-    return Ok();
-}
-
-[HttpGet]
-public async Task<List<MyEntity>> GetAllMyEntities()
-{
-    List<MyEntity> myEntities = await _myEntityReadRepository.GetAll().ToListAsync();
-    return myEntities;
-}
-
-[HttpPut]
-public async Task<IActionResult> UpdateMyEntity(string id, MyEntity myEntity)
-{
-    Guid guid = new(id);
-    MyEntity? baseEntity = await _myEntityReadRepository.GetByIdAsync(guid);
-    if (baseEntity == null) throw new Exception("Entity not found in Database");
-
-    baseEntity.Name = myEntity.Name;
-    baseEntity.Description = myEntity.Description;
-    baseEntity.Status = myEntity.Status;
-    baseEntity.CreatedDate = myEntity.CreatedDate;
-    baseEntity.LastModifiedDate = myEntity.LastModifiedDate;
-    baseEntity.DeletedDate = myEntity.DeletedDate;
-
-    _myEntityWriteRepository.Update(baseEntity);
-    await _context.SaveChangesAsync();
-    return Ok();
-}
-
-[HttpDelete]
-public async Task<IActionResult> DeleteMyEntity(string id)
-{
-    Guid guid = new(id);
-    MyEntity? baseEntity = await _myEntityReadRepository.GetByIdAsync(guid);
-    if (baseEntity == null) throw new Exception("Entity not found in Database");
-
-    _myEntityWriteRepository.Remove(baseEntity);
-    await _context.SaveChangesAsync();
-    return Ok();
-}
-```
 
 
 ## LinkedIn
