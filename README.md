@@ -72,23 +72,24 @@ Başqa bir faydası isə controller’ləri daha rahat test edə bilməkdir. Lak
 
 ## Repository Pattern’in Tətbiqi
 
-Repository Pattern’i tətbiq etmək üçün, əgər Onion (Clean) Architecture istifadə ediriksə, Application folder daxilində Interface Repository’lərin saxlanılması üçün Abstractions və onun da daxilində Repositories adlı bir folder yaradılır. Bu qovluqda IRepository, IReadRepository və IWriteRepository interfeysləri yerləşdirilir.
+Repository Pattern’i tətbiq etmək üçün, yazılmış arxitekturaya uyğun olaraq, Interface Repository’lərin saxlanılması üçün Abstractions və onun da daxilində Repositories adlı bir folder yaradılır. 
+Bu folder-də IRepository, IReadRepository və IWriteRepository interfeysləri yer alır.
 
-IRepository interfeysində DbSet tipində Table property yer alır.
+IRepository interfeysi DbSet tipində Table property-ə sahibdir.
 ```csharp
 public interface IRepository<T> where T : BaseEntity, new()
 {
     DbSet<T> Table { get; }
 }
 ```
-IReadRepository interfeysində oxuma (read) ilə bağlı get method-lar yerləşir.
+
+IReadRepository interfeysində oxuma (read) ilə bağlı get method-lar yer alır.
 ```csharp
 public interface IReadRepository<T>:IRepository<T> where T:BaseEntity,new()
 {
     IQueryable<T> GetAll();
     Task<T?> GetByIdAsync(Guid id, bool isTracking = false);
 }   
-}
 ```
 
 IWriteRepository interfeysində isə Create, Update və Delete üçün lazım olan method’lar və SaveChanges method’u yer alır.
@@ -102,7 +103,7 @@ public interface IWriteRepository<T> : IRepository<T> where T : BaseEntity, new(
 }
 ```
 
-Bu interfeyslərin konkretləri yəni Concrete class-ları isə Persistence layer-də, Concretes folder və onun da daxilində Repositories adlı başqa bir folder-də yer alır. 
+Bu interfeyslərin konkretləri yəni Concrete class-ları isə, Concretes folder və bu folder daxilində yer alan Repositories adlı folder daxilində də yer alacaq. 
 
 `ReadRepository` class’ı IReadRepository interfeysini implement etməlidir.
 ```csharp
@@ -135,7 +136,6 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
 
 `WriteRepository` class’ı isə IWriteRepository interfeysini implement etməlidir.
 ```csharp
-
 public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity, new()
 {
     private AppDbContext _context;
@@ -165,7 +165,6 @@ public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity, new(
     {
         await _context.SaveChangesAsync();
     }
-
 }
 ```
 
