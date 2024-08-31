@@ -239,9 +239,10 @@ public class MyEntityController : ControllerBase
 
 Folder Structure aşağıdaki şəkildə olur.
 
-![image](https://github.com/user-attachments/assets/b394e572-e0c8-41b4-bb90-03f861d83647)
+![image](https://github.com/user-attachments/assets/04d26bc5-5e9c-43cd-bab1-652a024970be)
 
-![image](https://github.com/user-attachments/assets/dc2d7fde-e2cb-4620-b877-bef0f19788e7)
+![image](https://github.com/user-attachments/assets/616b6d0e-8d7a-4f8c-9e63-40b78f8c12e7)
+
 
 
 ## LinkedIn
