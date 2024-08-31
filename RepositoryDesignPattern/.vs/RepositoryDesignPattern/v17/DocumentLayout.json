@@ -1,74 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\seedextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\seedextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\context\\repositorydesignpatterndbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\seedextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\seedextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\context\\repositorydesignpatterndbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\context\\repositorydesignpatterndbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\entities\\myentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\entities\\myentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Migrations\\20240615151336_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RepositoryDesignPattern.API\\Migrations\\20240615151336_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\controllers\\myentitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\controllers\\myentitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\controllers\\myentitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\myentity\\myentityreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\myentity\\myentityreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\context\\repositorydesignpatterndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\context\\repositorydesignpatterndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\myentity\\myentitywriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\myentity\\myentitywriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\entities\\myentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\entities\\myentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\myentity\\imyentitywriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\myentity\\imyentitywriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\myentity\\imyentityreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\myentity\\imyentityreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\source\\repos\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,221 +58,161 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:31:21.412Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:27:26.178Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:26:21.689Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyEntity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T15:17:45.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240615151336_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Migrations\\20240615151336_Initial.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Migrations\\20240615151336_Initial.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Migrations\\20240615151336_Initial.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Migrations\\20240615151336_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T15:13:36.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MyEntityController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:57:43.535Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiceExtension.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:48:54.926Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\appsettings.json",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-31T21:20:45.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeedExtension.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\SeedExtension.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\SeedExtension.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\SeedExtension.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\SeedExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:30:08.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RepositoryDesignPatternDbContextInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvyUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:27:10.061Z",
+              "WhenOpened": "2024-08-31T21:19:20.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Program.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:44:21.63Z",
+              "WhenOpened": "2024-08-31T20:47:38.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MyEntityReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityReadRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityReadRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityReadRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:48:28.885Z"
+              "WhenOpened": "2024-08-30T20:19:35.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:19:23.058Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "RepositoryDesignPatternDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContext.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContext.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:30:16.894Z"
+              "WhenOpened": "2024-08-30T19:20:27.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:20:25.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Program.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:19:03.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeedExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\SeedExtension.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\SeedExtension.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\SeedExtension.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\SeedExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:19:03.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:18:51.729Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "WriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Title": "IWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T13:33:25.522Z"
+              "WhenOpened": "2024-08-30T19:18:48.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MyEntityWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityWriteRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityWriteRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityWriteRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Concretes\\MyEntity\\MyEntityWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MyEntityController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAD/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:48:39.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IMyEntityWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityWriteRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityWriteRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityWriteRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:51:55.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IMyEntityReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:51:47.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IRepository.cs",
-              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\IRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IRepository.cs",
-              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:55:28.34Z"
+              "WhenOpened": "2024-08-30T19:18:19.453Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2,7 +2,8 @@
 
 namespace RepositoryDesignPattern.API.Abstractions;
 
-public interface IReadRepository<T>:IRepository<T> where T:BaseEntity,new()
+public interface IReadRepository<T> : IRepository<T> where T : BaseEntity, new()
 {
-    IQueryable<T> GetAll();    
+    IQueryable<T> GetAll();
+    Task<T?> GetByIdAsync(Guid id, bool isTracking = false);
 }

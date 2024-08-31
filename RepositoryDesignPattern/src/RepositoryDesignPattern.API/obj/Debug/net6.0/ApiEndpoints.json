@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "RepositoryDesignPattern.API.Controllers.MyEntityController",
+    "Method": "CreateMyEntity",
+    "RelativePath": "api/MyEntity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "myEntity",
+        "Type": "RepositoryDesignPattern.API.Entities.MyEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RepositoryDesignPattern.API.Controllers.MyEntityController",
     "Method": "GetAllMyEntities",
     "RelativePath": "api/MyEntity",
     "HttpMethod": "GET",
@@ -18,5 +34,42 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "RepositoryDesignPattern.API.Controllers.MyEntityController",
+    "Method": "UpdateMyEntity",
+    "RelativePath": "api/MyEntity",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "myEntity",
+        "Type": "RepositoryDesignPattern.API.Entities.MyEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RepositoryDesignPattern.API.Controllers.MyEntityController",
+    "Method": "DeleteMyEntity",
+    "RelativePath": "api/MyEntity",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -21,4 +21,15 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
         var query = Table.AsQueryable();
         return query;
     }
+
+    public async Task<T?> GetByIdAsync(Guid id, bool isTracking = false)
+    {
+        var query = Table.AsQueryable();
+        if (!isTracking)
+        {
+            query.AsNoTracking();
+        }
+        T? entity = await query.SingleOrDefaultAsync(e=>e.Id == id);
+        return entity;
+    }
 }

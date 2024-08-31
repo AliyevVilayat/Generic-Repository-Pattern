@@ -128,9 +128,10 @@ C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\Repos
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\scopedcss\bundle\RepositoryDesignPattern.API.styles.css
-C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\RepositoryDesignPattern.API.csproj.CopyComplete
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\RepositoryDesignPattern.API.dll
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\refint\RepositoryDesignPattern.API.dll
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\RepositoryDesignPattern.API.pdb
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\RepositoryDesignPattern.API.genruntimeconfig.cache
 C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\ref\RepositoryDesignPattern.API.dll
+C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\RepositoryDesignPattern.API.sourcelink.json
+C:\Users\User\Desktop\GenericRepositoryPattern\RepositoryDesignPattern\src\RepositoryDesignPattern.API\obj\Debug\net6.0\Reposito.F862A53E.Up2Date
