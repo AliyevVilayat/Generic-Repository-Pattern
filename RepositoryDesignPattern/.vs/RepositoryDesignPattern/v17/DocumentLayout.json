@@ -11,6 +11,22 @@
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\myentity\\imyentityreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\myentity\\imyentityreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,24 +47,12 @@
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\concretes\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\concretes\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\entities\\myentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\entities\\myentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|c:\\users\\user\\desktop\\genericrepositorypattern\\repositorydesignpattern\\src\\repositorydesignpattern.api\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0A68E-FA89-4626-8D74-5E575E4C28DD}|src\\RepositoryDesignPattern.API\\RepositoryDesignPattern.API.csproj|solutionrelative:src\\repositorydesignpattern.api\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +62,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMyEntityReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
+              "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
+              "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Abstractions\\MyEntity\\IMyEntityReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T21:32:07.176Z"
             },
             {
               "$type": "Document",
@@ -72,14 +88,14 @@
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\appsettings.json",
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-31T21:20:45.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "RepositoryDesignPatternDbContextInitializer.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
@@ -87,12 +103,11 @@
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Context\\RepositoryDesignPatternDbContextInitializer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:19:20.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T21:19:20.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ServiceExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
@@ -100,24 +115,24 @@
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\ServiceExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T20:47:38.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T20:47:38.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "ReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Concretes\\ReadRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T20:19:35.166Z"
+              "WhenOpened": "2024-08-30T20:19:35.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "IReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\IReadRepository.cs",
@@ -129,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Entities\\BaseEntity.cs",
@@ -141,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MyEntity.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Entities\\MyEntity.cs",
@@ -159,14 +174,14 @@
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Program.cs",
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T19:19:03.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SeedExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\SeedExtension.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\SeedExtension.cs",
@@ -174,12 +189,11 @@
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\SeedExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T19:19:03.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T19:19:03.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "WriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Concretes\\WriteRepository.cs",
@@ -191,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "IWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Abstractions\\IWriteRepository.cs",
@@ -203,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MyEntityController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GenericRepositoryPattern\\RepositoryDesignPattern\\src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
               "RelativeDocumentMoniker": "src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
@@ -211,8 +225,7 @@
               "RelativeToolTip": "src\\RepositoryDesignPattern.API\\Controllers\\MyEntityController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAD/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T19:18:19.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T19:18:19.453Z"
             }
           ]
         }
